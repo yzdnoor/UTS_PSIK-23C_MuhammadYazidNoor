@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS Yazid</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1>Selamat Datang Di Website Yazid</h1>
+        <p>Hanya Dibuat Untuk UTS</p>
+    </section>
+
+    <section id="about">
+        <h1>About</h1>
+        <p>Nama saya, Muhammad Yazid Noor, umur 19 tahun, saya anak kedua dari dua bersaudara, karena dua bersaudara saya mempunyai kakak perempuan, umur kami hanya berbeda empat tahun dia baru saja menyelesaikan kuliahnya, dan kalau untuk orangtua saya, lebih tua mama saya daripada papa saya, kedua orngtua saya kerja. Ya sampai disini tentang saya dan keluarga saya.</p>
+    </section>
+
+    <section id="skills">
+        <h1>Skills</h1>
+        <p>Untuk skill mungkin sampai saat ini saya juga belum tahu atau belum mendapatkan yang betul-betul skill saya, tapi kalau di game saya memiliki skill, di badminton saya juga memilikinya untuk di bidang akademi jujur masih terlalu kurang mungkin dari saat ini atau sudah waktunya untuk mengetahui diri sendiri agar bisa memperdalam atau mencari skill.</p>
+    </section>
+
+    <section id="education">
+        <h1>Education</h1>
+        <p>Saya dari TK sampai SMP selalu di sekolah yang agama nya kental banget, yang seperti belajar dari pagi  sampai sore atau bisa dibilang fullday. Saya TK nya di TK Aisyah brayan dekat flyover, kalau SD saya di SD MUHAMMADIYAH 02 di jalan mustafa, yang menarik waktu saya SMP saya SMP kelas satu di pesantren Islamic Centre Medan Pancing kelas dua nya saya pindah ke AL ULUM Tuasan, dan kelas tiga nya mungkin karena saya terlalu terbawa suasana puber saya di keluarkan jadinya saya homeschooling, ya ini cerita panjang untuk smp saya, setelah selesai SMP saya melanjutkan SMK di SMK Negeri 10 Medan mengambil jurursan Multimedia dan setelah tamat saya mencoba tes di Universitas Negeri Medan dengan jurusan ILMU KOMPUTER suatu kebanggan untuk diri sendiri bisa diterima di UNIV ini.</p>
+    </section>
+
+    <section id="experience">
+        <h1>Experience</h1>
+        <p>Pengalaman saya untuk kerja yang pasti belum ada ya tapi kalau untuk berteman waduh terlalu panjang untuk di ceritakan, tapi mungkin tidak ada gunanya di ceritakan disini sekarang.</p>
+    </section>
+
+    <section id="work">
+        <h1>Work</h1>
+        <p>Saya tidak tau apa yang mau saya bagikan di bagian yang ini karena saya belum berkerja</p>
+    </section>
+
+    <section id="blog">
+        <h1>Blog</h1>
+            <img src="d:\UTS.MuhammdYazidNoor\image.jpeg" alt="">
+        <p>Sama seperti game yang lainnya game ini juga diminati di kalangan anak muda</p>
+    </section>
+
+    <section id="contact">
+        <h1>Contact</h1>
+        <p><a href="mailto:muhammadyazidnoorn@gmail.com">muhammadyazidnoorn@gmail.com</a></p>
+        <p><a href="tel:+62081396763799">+6281396763799</a></p>
+
+    </section>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit">Send Message</button>
+    </form>
+
+    <script>
+        // Smooth Scroll for Navigation Menu
+        document.querySelectorAll('nav ul li a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetID = this.getAttribute('href');
+                document.querySelector(targetID).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+    
+</body>
+<p>Buatan Yazid</p>
+</html>

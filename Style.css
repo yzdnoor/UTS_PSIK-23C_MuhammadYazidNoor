@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; 
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #333;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    transform: translateY(-3px);
+}
+
+/* Section Styles */
+section {
+    padding: 100px 20px;
+    margin-top: 60px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Home Section */
+#home {
+    background-color: #f2f2f2;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* About Section */
+#about {
+    background-color: #fafafa;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #f7f7f7;
+}
+
+/* Education Section */
+#education {
+    background-color: #fafafa;
+}
+
+/* Experience Section */
+#experience {
+    background-color: #f7f7f7;
+}
+
+/* Work Section */
+#work {
+    background-color: #fafafa;
+}
+
+/* Blog Section */
+#blog {
+    background-color: #f7f7f7;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #fafafa;
+}
+
+/* Contact Form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+    transform: translateY(-5px);
+    
+}
